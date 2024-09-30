@@ -28,7 +28,7 @@ public class Main {
         var annaSergeevna = 27;
         var ekaterinaAndreevna = 30;
         var totalPaper = 480;
-        System.out.println("\nНа каждого ученика рассчитано " + totalPaper / (ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna) + " листов бумаги");
+        System.out.println("\nНа каждого ученика рассчитано " + totalPaper / (ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna) + " листов бумаги.");
 
         // Task 4
         var bottlesPerTwoMinutes = 16;
@@ -36,17 +36,17 @@ public class Main {
         var bottlesPerDay = bottlesPerMinute * 60 * 24;
         var bottlesPerThreeDays = bottlesPerDay * 3;
         var bottlesPerMonth = bottlesPerDay * 30;
-        System.out.println("\nЗа 20 минут машина произвела " + bottlesPerMinute + " штук бутылок");
-        System.out.println("За сутки машина произвела " + bottlesPerDay + " штук бутылок");
-        System.out.println("За 3 дня машина произвела " + bottlesPerThreeDays + " штук бутылок");
-        System.out.println("За месяц машина произвела " + bottlesPerMonth + " штук бутылок");
+        System.out.println("\nЗа 20 минут машина произвела " + bottlesPerMinute + " штук бутылок.");
+        System.out.println("За сутки машина произвела " + bottlesPerDay + " штук бутылок.");
+        System.out.println("За 3 дня машина произвела " + bottlesPerThreeDays + " штук бутылок.");
+        System.out.println("За месяц машина произвела " + bottlesPerMonth + " штук бутылок.");
 
         // Task 5
         var totalJar = 120;
         var whitePaint = 2;
         var brownPaint = 4;
         var quantityClasses = totalJar / (whitePaint + brownPaint);
-        System.out.println("\nВ школе, где " + quantityClasses + " классов, нужно " + quantityClasses * 2  + " банок белой краски и " + quantityClasses * 4  + " банок коричневой краски");
+        System.out.println("\nВ школе, где " + quantityClasses + " классов, нужно " + quantityClasses * 2  + " банок белой краски и " + quantityClasses * 4  + " банок коричневой краски.");
 
         // Task 6
         var quantityBananas = 5;
@@ -58,8 +58,8 @@ public class Main {
         var weightIceCream = 100;
         var weightEggs = 70;
         var totalWeight = (quantityBananas * weightBanana) + (weightMilk * (quantityMilk / 100)) + (quantityIceCream * weightIceCream) + (quantityEggs * weightEggs);
-        System.out.println("\nВес в граммах - " + totalWeight + " г");
-        System.out.println("Вес в килограммах - 0.88 кг");
+        System.out.println("\nВес в граммах - " + totalWeight + " г.");
+        System.out.println("Вес в килограммах - 0.88 кг.");
 
         // Task 7
         var weight = 7;
@@ -68,9 +68,9 @@ public class Main {
         var Losing250PerDay = weight * 1000 / lostWeight1;
         var Losing500PerDay = weight * 1000 / lostWeight2;
         var LosingInAverage = (Losing250PerDay + Losing500PerDay) / 2;
-        System.out.println("\nНужно потратить " + Losing250PerDay + " дней, чтобы потерять 7 кг веса, при потере 250 г веса в день");
-        System.out.println("Нужно потратить " + Losing500PerDay + " дней, чтобы потерять 7 кг веса, при потере 500 г веса в день");
-        System.out.println("В среднем нужно потратить " + LosingInAverage + " день, чтобы потерять 7 кг веса");
+        System.out.println("\nНужно потратить " + Losing250PerDay + " дней, чтобы потерять 7 кг веса, при потере 250 г веса в день.");
+        System.out.println("Нужно потратить " + Losing500PerDay + " дней, чтобы потерять 7 кг веса, при потере 500 г веса в день.");
+        System.out.println("В среднем нужно потратить " + LosingInAverage + " день, чтобы потерять 7 кг веса.");
 
         // Task 8
         var mashaMoneyPerMonth = 67760;
@@ -82,8 +82,8 @@ public class Main {
         var mashaDifferenceSalary = mashaSalaryAfterIncreasing * 12 - mashaMoneyPerMonth * 12;
         var denisDifferenceSalary = denisSalaryAfterIncreasing * 12 - denisMoneyPerMonth * 12;
         var kristinaDifferenceSalary = kristinaSalaryAfterIncreasing * 12 - kristinaMoneyPerMonth * 12;
-        System.out.println("\nМаша теперь получает " + mashaSalaryAfterIncreasing + " рублей. Годовой доход вырос на " + mashaDifferenceSalary + " рублей");
-        System.out.println("Маша теперь получает " + denisSalaryAfterIncreasing + " рублей. Годовой доход вырос на " + denisDifferenceSalary + " рублей");
-        System.out.println("Маша теперь получает " + kristinaSalaryAfterIncreasing + " рублей. Годовой доход вырос на " + kristinaDifferenceSalary + " рублей");
+        System.out.println("\nМаша теперь получает " + mashaSalaryAfterIncreasing + " рублей. Годовой доход вырос на " + mashaDifferenceSalary + " рублей.");
+        System.out.println("Маша теперь получает " + denisSalaryAfterIncreasing + " рублей. Годовой доход вырос на " + denisDifferenceSalary + " рублей.");
+        System.out.println("Маша теперь получает " + kristinaSalaryAfterIncreasing + " рублей. Годовой доход вырос на " + kristinaDifferenceSalary + " рублей.");
     }
 }
