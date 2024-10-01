@@ -7,12 +7,12 @@ public class Main {
         long variableLong1 = 111_111_111_111_111L;
         float variableFloat1 = 1.001F;
         double variableDouble1 = 1.0000001;
-        System.out.println("Значение переменной variableByte с типом byte равно " + variableByte1);
-        System.out.println("Значение переменной variableShort с типом short равно " + variableShort1);
-        System.out.println("Значение переменной variableInt с типом int равно " + variableInt1);
-        System.out.println("Значение переменной variableLong с типом long равно " + variableLong1);
-        System.out.println("Значение переменной variableFloat с типом float равно " + variableFloat1);
-        System.out.println("Значение переменной variableDouble с типом double равно " + variableDouble1);
+        System.out.println("Значение переменной variableByte1 с типом byte равно " + variableByte1);
+        System.out.println("Значение переменной variableShort1 с типом short равно " + variableShort1);
+        System.out.println("Значение переменной variableInt1 с типом int равно " + variableInt1);
+        System.out.println("Значение переменной variableLong1 с типом long равно " + variableLong1);
+        System.out.println("Значение переменной variableFloat1 с типом float равно " + variableFloat1);
+        System.out.println("Значение переменной variableDouble1 с типом double равно " + variableDouble1);
 
         // Task 2
         byte variableByte2 = 67;
@@ -22,6 +22,13 @@ public class Main {
         long variableLong2 = 987_678_965_549L;
         float variableFloat2 = 27.12F;
         double variableDouble2 = 2.786;
+        System.out.println("\nЗначение переменной variableByte2 с типом byte равно " + variableByte2);
+        System.out.println("Значение переменной variableShort2 с типом short равно " + variableShort2);
+        System.out.println("Значение переменной variableShort3 с типом short равно " + variableShort3);
+        System.out.println("Значение переменной variableInt2 с типом int равно " + variableInt2);
+        System.out.println("Значение переменной variableLong2 с типом long равно " + variableLong2);
+        System.out.println("Значение переменной variableFloat2 с типом float равно " + variableFloat2);
+        System.out.println("Значение переменной variableDouble2 с типом double равно " + variableDouble2);
 
         // Task 3
         byte ludmilaPavlovna = 23;
